@@ -14,12 +14,8 @@ bot = telebot.TeleBot(API_TOKEN)
 @bot.message_handler(commands=['help', 'start'])
 def send_welcome(message):
     bot.reply_to(message, """\
-Hi there, I am EchoBot.
-I am here to 
-echo your kind words bac
-k to you. Just say anything
- nice and I'll say the exact sa
- me thing to you!\
+Hola a todos yo soy BawyBot... etoou... también puedes llamarme BB hehe.
+Pues.. mi amo me ha creado para ser un asistente domótico y estaré en cosntante modificación, espero dar lo mejor de mí n.n\
 """)
 
 
